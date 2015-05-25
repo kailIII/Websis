@@ -1,43 +1,57 @@
-<div class="container-fluid">
-    <header>
-        <div class="intro-text">
-            <div class="intro-lead-in">Que necesitas Hoy?</div>
-                <div class="rw-words rw-words-1 intro-heading">
-                    <li>Sistemas Web</li>
-                    <li>Aplicaciones Móviles</li>
-                    <li>Páginas Web</li>
-                    <li>Redes Sociales</li>
-                    <li>Asesorías</li>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item firt active">
+            <div class="container-fluid">
+                <div class="carousel-caption">
+                    <h1>Disfrute de la vida.</h1>
+                    <p>Nosotros mejoramos el futuro de su negocio</p>
+                    
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">
+                        <i class="fa fa-angle-down fa-3x"></i> </a>
+                    </p>
                 </div>
-
-            <a href="{{ route('cotizacion') }}" class="page-scroll btn btn-xl">
-                Cotizar
-                <i class="fa fa-angle-right"></i>
-            </a>
-
-        </div>
-    </header>
-    <div id="wrap" class="wrap">
-        <div class="mockup">
-            <img class="mockup__img" src="img/mockup4.jpg" />
-            <div class="mobile">
-                <ul id="slideshow-1" class="slideshow">
-                    <li class="slideshow__item"><img src="img/small/1.png"/></li>
-                    <li class="slideshow__item"><img src="img/small/2.png"/></li>
-                    <li class="slideshow__item"><img src="img/small/3.png"/></li>
-                    <li class="slideshow__item"><img src="img/small/4.png"/></li>
-                    <li class="slideshow__item"><img src="img/small/4.png"/></li>
-                </ul>
             </div>
-            <div class="screen">
-                <ul id="slideshow-2" class="slideshow">
-                    <li class="slideshow__item current"><img src="img/large/1.png"/></li>
-                    <li class="slideshow__item"><img src="img/large/2.png"/></li>
-                    <li class="slideshow__item"><img src="img/large/3.png"/></li>
-                    <li class="slideshow__item"><img src="img/large/4.png"/></li>
-                    <li class="slideshow__item"><img src="img/large/4.png"/></li>
-                </ul>
+        </div>
+
+        <div class="item second">
+            <div class="container-fluid">
+                <div class="carousel-caption">
+                    <h1>Una sola inverción.</h1>
+                    <p>Desarrollamos para todo tipo de dispositivos.</p>
+                    
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Demostración.</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item third">
+            <div class="container-fluid">
+                <div class="carousel-caption">
+                    <h1>One more for good measure.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Ir a Galeria.</a></p>
+                </div>
             </div>
         </div>
     </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+      
 </div>

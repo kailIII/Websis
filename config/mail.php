@@ -28,7 +28,8 @@ return [
 	|
 	*/
 
-	'host' => 'smtp.mailgun.org',
+	// 'host' => 'smtp.mailgun.org',
+	'host' => 'smtp.gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -56,6 +57,8 @@ return [
 
 	'from' => ['address' => null, 'name' => null],
 
+	'from' => array('address' => 'tic.websis@gmail.com', 'name' => 'Websis'),
+
 	/*
 	|--------------------------------------------------------------------------
 	| E-Mail Encryption Protocol
@@ -80,7 +83,8 @@ return [
 	|
 	*/
 
-	'username' => null,
+	// 'username' => null,
+	'username' => 'tic.websis@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +97,8 @@ return [
 	|
 	*/
 
-	'password' => null,
+	// 'password' => null,
+	'password' => 'websis1234',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -119,6 +124,6 @@ return [
 	|
 	*/
 
-	'pretend' => false,
+	'pretend' => true,
 
 ];

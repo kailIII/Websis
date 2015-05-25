@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="Websis">
 
 <head>
 
@@ -14,27 +14,28 @@
     <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Bootstrap CSS -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/pagina.css" rel="stylesheet">
 
 
 </head>
 
-<body id="page-top" class="index" ng-app="Websis">
+<body id="page-top" class="index" ng-controller="MainCtrl">
 
     @yield('content')
 
 
     <!-- JS -->
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/classie.js') }}"></script>
+    <script src="{{ asset('js/modernizr.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
     <script src="{{ asset('js/angular.min.js') }}"></script>
     <script src="{{ asset('js/controller.js') }}"></script>
     <script src="{{ asset('js/wow.js') }}"></script>
-    <script src="{{ asset('js/classie.js') }}"></script>
-    <script src="{{ asset('js/agency.js') }}"></script>
+    <script src="{{ asset('js/pagina.js') }}"></script>
 
 </body>
 

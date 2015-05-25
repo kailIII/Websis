@@ -12,31 +12,13 @@
 */
 
 //Pagina
-	Route::get('/', ['as' => 'home', 'uses' => 'PaginaController@index']);
+	require(__DIR__ . '/routes/pagina.php');
 
-//Cotizacion
-	Route::get('cotizacion', ['as' => 'cotizacion', 'uses' => 'CotizacionesController@index']);
-
-//Servicios
-	Route::get('servicios', ['as' => 'servicios', 'uses' => 'ServiciosController@index']);
-	Route::get('servicios/desarrollo', ['as' => 'desarrollo', 'uses' => 'ServiciosController@desarrollo']);
-	Route::get('servicios/multimedia', ['as' => 'multimedia', 'uses' => 'ServiciosController@multimedia']);
-	Route::get('servicios/soporte', ['as' => 'soporte', 'uses' => 'ServiciosController@soporte']);
-
+// Dashboard
+	require(__DIR__ . '/routes/dashboard.php');
+	
 //Blog
-	Route::get('blog', ['as' => 'blog', 'uses' => 'BlogController@index']);
-
-	Route::get('blog/nosotros', ['as' => 'nosotros', 'uses' => 'BlogController@nosotros']);
-
-	Route::get('blog/post/{id}', ['as' => 'post', 'uses' => 'BlogController@post']);
-
-	Route::get('blog/contactos', ['as' => 'contactos', 'uses' => 'BlogController@contactos']);
-
-// Api
-	Route::controller('api', 'ApiController');
-
-// Suscripciones
-	Route::get('dashboard', ['as' => 'dashboard', 'uses' => 'dashboardController@index']);
+	require(__DIR__ . '/routes/blog.php');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',

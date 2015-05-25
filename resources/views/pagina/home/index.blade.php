@@ -3,15 +3,14 @@
 @section('content')
 
     @include('pagina.menu')
-    {{-- @include('pagina.menu-center') --}}
 
-    @include('pagina.home.header')
-    
-    {{-- @include('pagina.home.banner') --}}
+    @include('pagina.home.banner')
 
     @include('pagina.home.intro')
 
     @include('pagina.home.servicios')
+
+    @include('pagina.home.servicios.index')
 
     {{-- @include('pagina.home.proyectos') --}}
 
@@ -28,7 +27,7 @@
     @include('pagina.footer')
 
 
-    @include('pagina.home.proyecto_item')
-    @include('pagina.home.timeline')
+    @include('pagina.home.proyectos.eventos')
+    @include('pagina.home.nosotros.timeline')
 
 @endsection

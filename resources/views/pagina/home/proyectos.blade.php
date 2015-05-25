@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 portfolio-item  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <a href="#proyecto-eventos" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <a href="#proyecto-eventos" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <a href="#proyecto-eventos" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                <a href="#proyecto-eventos" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                <a href="#proyecto-eventos" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                <a href="#proyecto-eventos" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-search-plus fa-3x"></i>

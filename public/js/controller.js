@@ -1,5 +1,27 @@
 angular.module('Websis', [])
 
+.controller('MainCtrl', ['$scope', function ($scope) {
+	
+	$scope.view = 2;
+
+	$scope.setView = function(view){
+
+		$('a.list-group-item').each(function (index) {
+
+			if ((index + 1) === view) {
+				$(this).addClass('active');
+			}else{
+				$(this).removeClass('active');
+			};
+		    
+		});
+
+		$scope.view = view;
+		
+	}
+
+}])
+
 .controller('TecnologiasCtrl', ['$scope', function ($scope) {
 	
 	$scope.logos = 	[
@@ -23,15 +45,16 @@ angular.module('Websis', [])
 .controller('SuscripcionCtrl', ['$scope', '$http', function ($scope, $http) {
 	
 	$scope.submit = function(){
-		if($scope.correo){
+		if($scope.suscripcion){
 			var suscripcion = {};
-			suscripcion.correo = $scope.correo;
+			suscripcion.correo = $scope.suscripcion;
 			// console.log(suscripcion);
 
-			$http.post('http://localhost:8000/api/suscripcion', suscripcion).
+			$http.post('http://localhost:8000/suscripcion', suscripcion).
 			  success(function(data, status) {
 			    console.log(status);
 			    if (status == 201) {
+			    	$scope.msj = "Ya formas parte de la familia";
 			    	$scope.suscrito = true;
 				}else{
 				    $scope.errores = data;
@@ -44,30 +67,26 @@ angular.module('Websis', [])
 		}
 	}
 
-}])
+	$scope.email = function(){
+		if($scope.correo){
 
-.controller('EmailCtrl', ['$scope', '$http', function ($scope, $http) {
-	
-	$scope.correo = {};
+			console.log($scope.correo);
 
-	$scope.submit = function(correo){
-		if(correo){
-
-			console.log(correo);
-
-			$http.post('http://localhost:8000/api/email', correo).
+			$http.post('http://localhost:8000/email', $scope.correo).
 			  success(function(data, status) {
 			    console.log(status);
 			    if (status == 201) {
 			    	$scope.correo = {};
+			    	$scope.suscrito = true;
+			    	$scope.msj = "Gracias por escribirnos.";
 			    	$('#email').modal('hide')
 				}else{
-				    $scope.errores = data;
+				    $scope.emailErrores = data;
 				}
 			  }).
 			  error(function(data, status) {
 			    console.log(status);
-			    $scope.errores = ["El correo no se envio, intente más tarde."];
+			    $scope.emailErrores = ["El correo no se envio, intente más tarde."];
 			  });
 		}
 	}
