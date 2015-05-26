@@ -1,11 +1,11 @@
-<section id="services">
+<section id="services" class="bg-light-gray">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 text-center">
                 <h2 class="section-heading">Servicios</h2>
                 <p class="text-muted fa-2x">
                     <i class="fa fa-quote-left fa-border"></i>
-                    Un servicio para cada necesidad
+                    Un servicio, una oportunidad de crecer
                     <i class="fa fa-quote-right fa-border"></i>
                 </p>
             </div>

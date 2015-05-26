@@ -14,7 +14,7 @@
     		    <form name="forma" ng-submit="submit()" class="form-inline">
 
     		    	<div class="input-group col-xs-6">
-    					<input class="form-control input-lg" type="email" ng-model="suscripcion" required>
+    					<input class="form-control input-lg" type="email" ng-model="suscripcion" placeholder="Ingresa tu correo electrónico..." required>
     					<span class="input-group-btn">
     					<button type="submit" class="btn btn-primary btn-lg" ng-disabled="forma.$invalid">Enviar</button>
     					</span>
@@ -64,7 +64,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title text-center">Contacto</h4>
+                    <h4 class="modal-title text-center">Escribenos</h4>
                 </div>
                 <div class="modal-body">
                     <form name="form">
@@ -78,11 +78,11 @@
                         </div>
                         <div class="form-group">
                             <label for="nombre">Nombre: </label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre" ng-model="correo.nombre">
+                            <input type="text" class="form-control" id="nombre" placeholder="Para saber con quien nos comunicamos" ng-model="correo.nombre">
                         </div>
                         <div class="form-group">
                             <label for="email">Correo: </label>
-                            <input type="email" class="form-control" id="email" placeholder="ejemplo@ejemplo.com" ng-model="correo.correo">
+                            <input type="email" class="form-control" id="email" placeholder="Para responder tu mensaje" ng-model="correo.correo">
                         </div>
                         <div class="form-group">
                             <label for="nota">Nota: </label>

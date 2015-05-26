@@ -6,7 +6,7 @@
                 <br><br>
                 <p class="text-muted fa-2x">
                     <i class="fa fa-quote-left fa-border"></i>
-                    Tenemos la formula para que tu negocio <strong>sea exitoso</strong>
+                    Con nosotros tu negocio <strong>será exitoso</strong>
                     <i class="fa fa-quote-right fa-border"></i>
                 </p>
             </div>
@@ -21,10 +21,11 @@
                             <i class="fa fa-lightbulb-o fa-border"></i>
                         </div>
                         <div class="col-xs-12">
-                            <h4>Ideas</h4>
-                            <p>
-                                Queremos que tu negocio sea eficiente y brinde los mejores resultados.
-                            </p>
+                            <h3><strong>Ideas</strong></h3>
+                            <h4 class="text-muted">
+                                La mejores ideas puestas en cada uno de nuestros 
+                                <a class="page-scroll" href="#services">servicios.</a>
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -35,10 +36,11 @@
                             <i class="fa fa-cog fa-border"></i>
                         </div>
                         <div class="col-xs-12">
-                            <h4>Trabajo</h4>
-                            <p>
-                                Cada proyecto lo hacemos con profesionalidad y responsabilidad.
-                            </p>
+                            <h3><strong>Trabajo</strong></h3>
+                            <h4 class="text-muted">
+                                Profesionalidad y responsabilidad en todos los 
+                                <a class="page-scroll" href="#proyectos">proyectos.</a>
+                            </h4>
                         </div>
                     </div>
                 </div>
@@ -49,10 +51,11 @@
                             <i class="fa fa-heart fa-border"></i>
                         </div>
                         <div class="col-xs-12">
-                            <h4>Resultados</h4>
-                            <p>
-                                La meta es que nuestros clientes esten satisfechos y contentos.
-                            </p>
+                            <h3><strong>Resul</strong>tados</h3>
+                            <h4 class="text-muted">
+                                La meta, tener contentos y satisfechos a nuestros 
+                                <a class="page-scroll" href="#clientes">clientes.</a>
+                            </h4>
                         </div>
                     </div>
                 </div>

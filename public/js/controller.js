@@ -2,7 +2,7 @@ angular.module('Websis', [])
 
 .controller('MainCtrl', ['$scope', function ($scope) {
 	
-	$scope.view = 2;
+	$scope.view = 0;
 
 	$scope.setView = function(view){
 

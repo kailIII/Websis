@@ -29,5 +29,7 @@
 
     @include('pagina.home.proyectos.eventos')
     @include('pagina.home.nosotros.timeline')
+    @include('pagina.home.informacion.politicas')
+    @include('pagina.home.informacion.terminos')
 
 @endsection

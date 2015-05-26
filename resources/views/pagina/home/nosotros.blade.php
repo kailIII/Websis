@@ -3,24 +3,24 @@
         <div class="row text-center">
             <div class="col-lg-12">
                 <h2 class="section-heading">Nosotros</h2>
-                <h3 class="section-subheading text-muted fa-2x">
-                    <i class="fa fa-quote-left fa-2x fa-border"></i>
-                    Somos de Ilobasco, Somos de El Salvador.
-                    <i class="fa fa-quote-right fa-2x fa-border"></i>
-                </h3>
+                 <p class="text-muted fa-2x">
+                    <i class="fa fa-quote-left fa-border"></i>
+                    Tenemos todo listo para comenzar a ofrecerte lo que necesitas.
+                    <i class="fa fa-quote-right fa-border"></i>
+                </p>
             </div>
 
             <div class="col-sm-4">
-                <h3>Objetivo</h3>
-                <p>Ofrecer los mejores servicios.</p>
+                <h2>Objetivo</h2>
+                <h4>Tener clientes felices y satisfechos.</h4>
             </div>
             <div class="col-sm-4">
-                <h3>Misión</h3>
-                <p>Ser reconocidos por nuestro trabajo y profesionalidad.</p>
+                <h2>Misión</h2>
+                <h4>Ser reconocidos por nuestro trabajo y profesionalidad.</h4>
             </div>
             <div class="col-sm-4">
-                <h3>Visión</h3>
-                <p>Convertirnos en una empresa competitiva y generadora de empleo.</p>
+                <h2>Visión</h2>
+                <h4>Convertirnos en una empresa competitiva y generadora de empleo.</h4>
             </div>
         </div>
 

@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="arrow">Sera un placer conocerte</h1>
+        <h1 class="arrow">Sera un placer trabajar con tigo</h1>
       </div>
     </div>
     <div class="row contact-details">

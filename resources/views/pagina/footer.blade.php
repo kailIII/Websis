@@ -16,9 +16,9 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
-                    <li><a href="#">Politicas</a>
+                    <li><a href="#politicas" data-toggle="modal">Politicas</a>
                     </li>
-                    <li><a href="#">Terminos de Uso</a>
+                    <li><a href="#terminos" data-toggle="modal">Terminos de Uso</a>
                     </li>
                 </ul>
             </div>
