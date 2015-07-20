@@ -34,9 +34,9 @@ angular.module('Websis', [])
 					{url: 'https://github.com', img: 'github'},
 					{url: 'http://ionicframework.com', img: 'ionic'},
 					{url: 'https://www.mysql.com', img: 'mysql'},
-					// {url: 'https://nodejs.org', img: 'node'},
+					{url: 'https://nodejs.org', img: 'node'},
 					{url: 'http://www.sublimetext.com', img: 'sublime'},
-					{url: 'http://gruntjs.com', img: 'grunt'},
+					// {url: 'http://gruntjs.com', img: 'grunt'},
 					{url: 'https://cordova.apache.org', img: 'cordova'}
 					];
 

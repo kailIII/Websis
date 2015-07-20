@@ -11,12 +11,12 @@
         <div class="item firt active">
             <div class="container-fluid">
                 <div class="carousel-caption">
-                    <h1>Disfrute de la vida.</h1>
-                    <p>Nosotros mejoramos el futuro de su negocio</p>
+                    <h1>Somos Websis</h1>
+                    <p class="text-muted">Tecnología | Eficiencia | Innovación</p>
                     
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">
-                        <i class="fa fa-angle-down fa-3x"></i> </a>
-                    </p>
+                    <p><a class="btn btn-lg btn-primary page-scroll" href="#welcome" role="button">Conocenos <br>
+                    <i class="fa fa-angle-down fa-2x"></i>
+                    </a></p>
                 </div>
             </div>
         </div>
@@ -24,10 +24,12 @@
         <div class="item second">
             <div class="container-fluid">
                 <div class="carousel-caption">
-                    <h1>Una sola inverción.</h1>
-                    <p>Desarrollamos para todo tipo de dispositivos.</p>
+                    <h1>Servicios Únicos</h1>
+                    <p class="text-muted">Desarrollo | Multimedia | Asesorías<p>
                     
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Demostración.</a></p>
+                    <p><a class="btn btn-lg btn-primary page-scroll" href="#servicios" role="button">Servicios <br>
+                    <i class="fa fa-angle-down fa-2x"></i>
+                    </a></p>
                 </div>
             </div>
         </div>
@@ -35,10 +37,12 @@
         <div class="item third">
             <div class="container-fluid">
                 <div class="carousel-caption">
-                    <h1>One more for good measure.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    <h1>Para que Ahorres</h1>
+                    <p class="text-muted">Tiempo | Dinero | Trabajo</p>
                     
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Ir a Galeria.</a></p>
+                    <p><a class="btn btn-lg btn-primary page-scroll" href="#productos" role="button">Productos<br>
+                    <i class="fa fa-angle-down fa-2x"></i>
+                    </a></p>
                 </div>
             </div>
         </div>

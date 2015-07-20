@@ -1,5 +1,16 @@
+$(window).load(function(){
+    $('#page-loader').fadeOut(0);
+});
+
+window.onbeforeunload = function(e) {
+    $('#page-loader').fadeIn(0);
+    var PreventExitSplash=false;
+    if (PreventExitSplash == false)
+        $('#page-loader').fadeOut(0);
+};
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -27,6 +38,10 @@ $('body > *').not('nav').click(function() {
     }
 });
 
+$('.carousel').carousel({
+  interval: 10000,
+  keyboard: true
+});
 
 //Initiat WOW JS
     new WOW().init();

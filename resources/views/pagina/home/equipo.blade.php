@@ -5,7 +5,7 @@
                 <h2 class="section-heading">Equipo Websis</h2>
                  <p class="text-muted fa-2x">
                     <i class="fa fa-quote-left fa-border"></i>
-                        Somos cuatro <strong> "<abbr title="Persona que trabaja en Websis">Websisters</abbr>"</strong>, preparados para ofrecerte los mejores resultados.
+                        Somos cuatro <strong> "<abbr title="Persona que trabaja en Websis">Websisters</abbr>"</strong>, ofreciéndote los mejores resultados.
                     <i class="fa fa-quote-right fa-border"></i>
                 </p>
             </div>

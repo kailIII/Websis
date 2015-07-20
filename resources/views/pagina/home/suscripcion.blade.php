@@ -51,7 +51,7 @@
     		<h2>
     			<i class="fa fa-star fa-3x"></i><br>
     			<span>Eres Genial!!!</span><br>
-    			@{{ msj }} <strong>Websis</strong><br>
+    			@{{ msj }} <strong>Att. Equipo Websis</strong><br>
     		</h2>
     	</div>
         </div>
@@ -78,15 +78,15 @@
                         </div>
                         <div class="form-group">
                             <label for="nombre">Nombre: </label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Para saber con quien nos comunicamos" ng-model="correo.nombre">
+                            <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" ng-model="correo.nombre" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Correo: </label>
-                            <input type="email" class="form-control" id="email" placeholder="Para responder tu mensaje" ng-model="correo.correo">
+                            <input type="email" class="form-control" id="email" placeholder="Escribe tu correo" ng-model="correo.correo" required>
                         </div>
                         <div class="form-group">
                             <label for="nota">Nota: </label>
-                            <textarea class="form-control" rows="3" id="nota" placeholder="Cuentanos..." ng-model="correo.nota"></textarea>
+                            <textarea class="form-control" rows="3" id="nota" placeholder="Cuentanos en que te ayudamos..." ng-model="correo.nota" required></textarea>
                         </div>
                     </form>
                     

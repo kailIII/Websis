@@ -5,7 +5,7 @@
                 <h2 class="section-heading">Servicios</h2>
                 <p class="text-muted fa-2x">
                     <i class="fa fa-quote-left fa-border"></i>
-                    Un servicio, una oportunidad de crecer
+                    Ofrecemos innovación, eficiencia y resultados.
                     <i class="fa fa-quote-right fa-border"></i>
                 </p>
             </div>

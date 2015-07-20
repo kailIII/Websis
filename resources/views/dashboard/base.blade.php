@@ -6,7 +6,7 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     
     <!-- Bootstrap 3.3.2 -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('dash/css/AdminLTE.min.css') }}" rel="stylesheet">
     <link href="{{ asset('dash/css/skins/skin-blue.min.css') }}" rel="stylesheet">
    
@@ -31,7 +31,7 @@
     </div>
 
     <script src="{{ asset('js/classie.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
     <script src="{{ asset('dash/plugins/slimScroll/jquery.slimScroll.min.js') }}"></script>
     {{-- // <script src="{{ asset('dash/js/pages/dashboard.js') }}"></script> --}}
     <script src="{{ asset('dash/js/app.min.js') }}"></script>

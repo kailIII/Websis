@@ -24,6 +24,16 @@
 </head>
 
 <body id="page-top" class="index" ng-controller="MainCtrl">
+    
+    <div id="page-loader">
+        <div class="page-loader-inner">
+            <div class="loader-logo">
+                <img src="/img/logotipo.svg" alt="Logo" width="150">
+            </div>
+            <br>
+            <i class="fa fa-spinner fa-pulse fa-2x"></i>
+        </div>
+    </div>
 
     @yield('content')
 
