@@ -152,7 +152,7 @@
     #services .list i {padding: 15px 20px 10px 5px; float: left;}
     
     @media(min-width:991px) {
-       .list-group-item.active, .list-group-item:hover, .list-group-item:active, .list-group-item:focus {width: 105%; z-index: 1000;}
+       .list-group-item:hover {width: 105%; z-index: 1000;}
     }
 
     .featurette-divider {margin: 80px 0;}

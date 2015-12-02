@@ -1,3 +1,13 @@
+<div class="portfolio-modal modal fade" id="asesorias" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
 <div class="col-xs-12 text-center">
     <h1>Asesorías</h1>
     <br><br>
@@ -51,3 +61,4 @@
     </div>
 </div>
 
+</div></div></div>

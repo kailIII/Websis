@@ -24,7 +24,7 @@
                             <h3><strong>Ideas</strong></h3>
                             <h4 class="text-muted">
                                 La mejores ideas puestas en cada uno de nuestros 
-                                <br><a class="page-scroll" href="#services">servicios.</a>
+                                <br><a class="btn btn-primary page-scroll" href="#services">Servicios.</a>
                             </h4>
                         </div>
                     </div>
@@ -37,7 +37,7 @@
                             <h3><strong>Trabajo</strong></h3>
                             <h4 class="text-muted">
                                 Profesionalidad y responsabilidad en todos los 
-                                <br><a class="page-scroll" href="#proyectos">proyectos.</a>
+                                <br><a class="btn btn-primary page-scroll" href="#proyectos">Proyectos.</a>
                             </h4>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             <h3><strong>Resultados</strong></h3>
                             <h4 class="text-muted">
                                 La meta, tener contentos y satisfechos a nuestros 
-                                <br><a class="page-scroll" href="#clientes">clientes.</a>
+                                <br><a class="btn btn-primary page-scroll" href="#clientes">Clientes.</a>
                             </h4>
                         </div>
                     </div>

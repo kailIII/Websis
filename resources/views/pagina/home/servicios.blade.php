@@ -22,17 +22,17 @@
                 <h2 class="service-heading">Desarrollo</h2>
 
                 <div class="list-group">
-                    <a href="#sistemas" ng-click = " setView(1); " class="list-group-item page-scroll">
+                    <a href="#sistemas" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-desktop fa-2x"></i> 
                         <h5>Sistemas Informáticos</h5>
                         <h6>Ahorra tiempo, esfuerzo y dinero.</h6>
                     </a>
-                    <a href="#paginas" ng-click = " setView(2);" class="list-group-item page-scroll">
+                    <a href="#paginas" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-laptop fa-2x"></i> 
                         <h5>Páginas Web</h5>
                         <h6>Has crecer tu negocio con Internet.</h6>
                     </a>
-                    <a href="#apps" ng-click = " setView(3);" class="list-group-item page-scroll">
+                    <a href="#apps" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-mobile fa-3x" style="padding: 0 25px 10px 12px"></i> 
                         <h5>Aplicaciones Móviles</h5>
                         <h6>Creamos las mejores apps para tí.</h6>
@@ -47,17 +47,17 @@
                 </span>
                 <h2 class="service-heading">Multimedia</h2>
                 <div class="list-group">
-                    <a href="#imagen" ng-click = " setView(4); " class="list-group-item page-scroll">
+                    <a href="#imagen" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-file-picture-o fa-2x"></i> 
                         <h5>Imagen</h5>
                         <h6>Diseños gráficos y modelado 3D.</h6>
                     </a>
-                    <a href="#audio" ng-click = " setView(5); " class="list-group-item page-scroll">
+                    <a href="#audio" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-file-audio-o fa-2x"></i> 
                         <h5>Audio</h5>
                         <h6>Pistas, mixes y edición de audio.</h6>
                     </a>
-                    <a href="#video" ng-click = " setView(6); " class="list-group-item page-scroll">
+                    <a href="#video" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-file-movie-o fa-2x"></i> 
                         <h5>Video</h5>
                         <h6>Animaciones y edicion de videos.</h6>
@@ -72,17 +72,17 @@
                 </span>
                 <h2 class="service-heading">Soporte</h2>
                 <div class="list-group">
-                    <a href="#social" ng-click = " setView(7); " class="list-group-item page-scroll">
+                    <a href="#social" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-bullhorn fa-2x"></i> 
                         <h5>Redes Sociales</h5>
                         <h6>Creación, administración y más.</h6>
                     </a>
-                    <a href="#asesorias" ng-click = " setView(8); " class="list-group-item page-scroll">
+                    <a href="#asesorias" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-users fa-2x"></i> 
                         <h5>Asesorías</h5>
                         <h6>Te ayudamos en lo que necesites.</h6>
                     </a>
-                    <a href="#mantenimiento" ng-click = " setView(9); " class="list-group-item page-scroll">
+                    <a href="#mantenimiento" data-toggle="modal" class="list-group-item page-scroll">
                         <i class="fa fa-life-ring fa-2x"></i> 
                         <h5>Mantenimiento</h5>
                         <h6>Te dejamos tu quipo como nuevo.</h6>
