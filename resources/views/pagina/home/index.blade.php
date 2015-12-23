@@ -12,7 +12,7 @@
 
     {{-- @include('pagina.home.servicios.index') --}}
 
-    {{-- @include('pagina.home.proyectos') --}}
+    @include('pagina.home.proyectos')
 
     @include('pagina.home.nosotros')
 

@@ -21,7 +21,7 @@
                     <div class="welcome-wrap">
                         <div class="col-xs-12">
                             <i class="fa fa-lightbulb-o fa-border"></i>
-                            <h3><strong>Ideas</strong></h3>
+                            <h3><strong>Soluciones</strong></h3>
                             <h4 class="text-muted">
                                 La mejores ideas puestas en cada uno de nuestros 
                                 <br><a class="btn btn-primary page-scroll" href="#services">Servicios.</a>

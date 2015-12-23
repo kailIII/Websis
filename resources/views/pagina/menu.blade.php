@@ -24,15 +24,15 @@
                 <li>
                     <a class="page-scroll" href="#services">Servicios</a>
                 </li>
-                {{-- <li>
+                <li>
                     <a class="page-scroll" href="#portfolio">Proyectos</a>
-                </li> --}}
+                </li>
                 <li>
                     <a class="page-scroll" href="#about">Nosotros</a>
                 </li>
-                <li class="hidden-sm">
+               {{--  <li class="hidden-sm">
                     <a class="page-scroll" href="#team">Equipo</a>
-                </li>
+                </li> --}}
                 <li>
                     <a class="page-scroll" href="#contact">Contacto</a>
                 </li>
